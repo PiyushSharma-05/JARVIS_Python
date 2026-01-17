@@ -1,0 +1,8 @@
+
+
+.venv/
+__pycache__/
+main.py
+main2.py
+requirements1.txt
+.env
