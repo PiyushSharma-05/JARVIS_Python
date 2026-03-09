@@ -125,7 +125,9 @@ def processCommand(c):
     elif "open youtube" in c.lower():
         webbrowser.open("https://youtube.com")   
     elif "open chrome" in c.lower():
-        webbrowser.open("https://chrome.com")   
+        webbrowser.open("https://chrome.com") 
+    # elif "open linkedin" in c.lower():
+    #     webbrowser.open("https://www.linkedin.com/in/piyush-sharma-163aa8328/")      
 
     elif c.lower().startswith("play"):
         try:
@@ -162,7 +164,7 @@ def processCommand(c):
 if __name__ == "__main__":
    
     speak("Initializing Jarvis....")
-    play_sound("Jarvis_StartUp.wav")
+    # play_sound("Jarvis_StartUp.wav")
     
     while True:
         r = sr.Recognizer()
